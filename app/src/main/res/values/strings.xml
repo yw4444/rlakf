@@ -1,0 +1,11 @@
+<resources>
+    <string name="q1_description">Button for Q1</string>
+    <string name="w2_description">Button for W2</string>
+    <string name="r4_description">Button for R4</string>
+    <string name="t5_description">Button for T5</string>
+    <string name="y6_description">Button for Y6</string>
+    <string name="e3_description">Button for E3</string>
+    <string name="u7_description">Button for U7</string>
+    <string name="i8_description">Button for I8</string>
+    <string name="app_name">My Application</string>
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pop2.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- TextView (기존 텍스트와 추가된 UI) -->
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:text="팝매니아"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp" />
+
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- 첫 번째 행 (가로로 두 개의 버튼) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <ImageButton
+                    android:id="@+id/q1"
+                    android:layout_width="0dp"
+                    android:layout_height="218dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/q1"
+                    android:onClick="onImageButtonClick"
+                    android:contentDescription="@string/q1_description" />
+
+                <ImageButton
+                    android:id="@+id/w2"
+                    android:layout_width="0dp"
+                    android:layout_height="218dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/w2"
+                    android:onClick="onImageButtonClick"
+                    android:contentDescription="@string/w2_description" />
+            </LinearLayout>
+
+            <!-- 두 번째 행 (가로로 두 개의 버튼) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <ImageButton
+                    android:id="@+id/r4"
+                    android:layout_width="0dp"
+                    android:layout_height="218dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/r4"
+                    android:onClick="onImageButtonClick"
+                    android:contentDescription="@string/r4_description" />
+
+                <ImageButton
+                    android:id="@+id/t5"
+                    android:layout_width="0dp"
+                    android:layout_height="218dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/t5"
+                    android:onClick="onImageButtonClick"
+                    android:contentDescription="@string/t5_description" />
+            </LinearLayout>
+
+            <!-- 세 번째 행 (가로로 두 개의 버튼) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <ImageButton
+                    android:id="@+id/y6"
+                    android:layout_width="0dp"
+                    android:layout_height="218dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/y6"
+                    android:onClick="onImageButtonClick"
+                    android:contentDescription="@string/y6_description" />
+
+                <ImageButton
+                    android:id="@+id/e3"
+                    android:layout_width="0dp"
+                    android:layout_height="218dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/e3"
+                    android:onClick="onImageButtonClick"
+                    android:contentDescription="@string/e3_description" />
+            </LinearLayout>
+
+            <!-- 네 번째 행 (가로로 두 개의 버튼) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <ImageButton
+                    android:id="@+id/u7"
+                    android:layout_width="0dp"
+                    android:layout_height="218dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/u7"
+                    android:onClick="onImageButtonClick"
+                    android:contentDescription="@string/u7_description" />
+
+                <ImageButton
+                    android:id="@+id/i8"
+                    android:layout_width="0dp"
+                    android:layout_height="218dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/i8"
+                    android:onClick="onImageButtonClick"
+                    android:contentDescription="@string/i8_description" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
